@@ -1,0 +1,125 @@
+.main-dashboard-header {
+    background: #053b8b;
+    padding: 8px 0;
+}
+.main-dashboard-header .logo {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.main-dashboard-header .dashboard-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-dashboard-header .icon {
+    color: white;
+}
+/* ------------forms-withdraw-container--------------- */
+.forms-withdraw-container {
+    padding: 24px 0;
+}
+.forms-withdraw-container .para {
+    color: #0C0C0C;
+    font-family: 'Karrik';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+.forms-withdraw-container option {
+    color: #000;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.forms-withdraw-container .selection-wrap {
+    border: 1px solid #000;
+    background: #FFF;
+    border-radius: 40px;
+    padding: 13px 40px;
+    margin-bottom: 30px;
+}
+.forms-withdraw-container select#cars {
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.forms-withdraw-container .accont {
+    color: #0C0C0C;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    display: block;
+}
+.forms-withdraw-container input[type="text"] {
+    color: #0C0C0C;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.forms-withdraw-container .account-number-wrap {
+    margin-bottom: 24px;
+    padding-left: 13px;
+}
+.forms-withdraw-container .withdraw-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px;
+    border-radius: 24px;
+    transition: color 1.5s;
+    background: linear-gradient(16deg, #0d6efd, #052452);
+}
+.forms-withdraw-container .draw.btn {
+    color: #fff;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize;
+    background: none;
+    border: none;
+}
+.forms-withdraw-container .accont::before {
+    content: "";
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    border-left: 4px solid #032e6d;
+}
+.forms-withdraw-container .accont-title::before {
+    content: "";
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    border-left: 4px solid #032e6d;
+}
+.forms-withdraw-container .account-password::before {
+    content: "";
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    border-left: 4px solid #032e6d;
+}
+.forms-withdraw-container .account {
+    position: relative;
+}
+
+
+
+
+
+

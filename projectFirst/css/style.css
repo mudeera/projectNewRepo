@@ -1,0 +1,285 @@
+
+
+.main-dashboard-header {
+    background: #053b8b;
+    padding: 10px 0;
+}
+.main-dashboard-header .logo {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.main-dashboard-header .dashboard-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-dashboard-header .icon {
+    color: white;
+}
+.hero-banner .welcome {
+    color: #dc3545;
+    font-family: 'Karrik';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.hero-banner .name-text {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.hero-banner {
+    background: linear-gradient(16deg, #0d6efd, #072f69);
+    padding: 20px 0;
+}
+.form-gmail input[type="gmail"] {
+    color: #dc3545;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.form-gmail input[type="gmail"]:hover {
+    color: #FFF;
+}
+.hero-banner .text-with-prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-banner .title {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.hero-banner .price-new {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+}
+.hero-banner .mobile-icons-with-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -10px;
+}
+.hero-banner .font-icon {
+    width: 52px;
+    height: 52px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+.hero-banner .bottom-text {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+}
+.hero-banner .icon-with-text-wrap {
+    max-width: 50%;
+    flex: 50%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* -------------------------- */
+.banner-two {
+    border-top: 6px solid #e6e6e6;
+    border-bottom: 6px solid #e6e6e6;
+}
+.banner-two .para-text {
+    color: #0d6efd;
+    font-family: 'Karrik';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.banner-two .banner--two-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-two-text {
+    max-width: 730px;
+    flex: 730px;
+}
+.right--image {
+    flex: 1;
+}
+/* --------------products---------------- */
+.products {
+    margin-bottom: 30px;
+}
+.products .logo-with-contents-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products .product-logo {
+    max-width: 335px;
+    flex: 335px;
+}
+.products .contents {
+    flex: 1;
+}
+.products .free--price-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.products .title {
+    color: #000;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.products .price--p {
+    background: linear-gradient(16deg, #0d6efd, #05214a);
+    text-align: center;
+    color: white;
+    border-radius: 14px;
+    max-width: 314px;
+    padding: 5px 100px;
+    min-width: 314px;
+    cursor: pointer;
+}
+.products .pree-title {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.products .new-price {
+    color: #0d6efd;
+    font-size: 16px;
+    font-family: 'Karrik';
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    display: block;
+}
+.products .custom-case {
+    color: #0d6efd;
+    font-size: 14px;
+    font-family: 'Karrik';
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+.products .c--new--price {
+    color: #000;
+    font-family: 'Karrik';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.products .custom-text:not(:last-child) {
+    margin-bottom: 8px;
+}
+.products .product-button {
+    background: #0d6efd;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 20px;
+    border-radius: 5px;
+    transition: color 1.5s;
+    background: linear-gradient(16deg, #0d6efd, #052452);
+    margin-bottom: 10px;
+}
+.products .btn-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.products .wrapper {
+    border-bottom: 6px solid #e6e6e6;
+}
+.products .product-wrapper {
+    padding: 0 8px;
+}
+
+
+
+@media screen and (max-width:990px) {
+    .products .product-logo {
+        max-width: 200px;
+        flex: 200px;
+    }
+}
+@media screen and (max-width:767px) {
+    .first-welcome-text {
+        margin-bottom: 24px;
+    }
+    .hero-banner .text-with-prices {
+        margin-bottom: 24px;
+    }
+    .banner-two-text {
+        max-width: 200px;
+        flex: 200px;
+    }
+    .products .price--p {
+        max-width: 80px;
+        padding: 4px 0px;
+        min-width: 80px;
+    }
+    .products .product-logo {
+        max-width: 170px;
+        flex: 170px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+

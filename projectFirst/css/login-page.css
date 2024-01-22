@@ -1,0 +1,260 @@
+
+body {
+    background: #f5f5f5;
+}
+.top-section {
+    margin-bottom: 60px;
+}
+.top-section .wel-txt {
+    background: linear-gradient(16deg, rgb(13, 110, 253), rgb(7, 47, 105));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+.top-section .sign-up-text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.top-section .wellcome-text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    display: block;
+}
+.top-section input[type="email"] {
+    color: #495057;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.top-section input::placeholder {
+    color: #495057;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+}
+.top-section .login {
+    color: #000;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    max-width: 50%;
+    flex: 50%;
+    border-bottom: 1px solid #cfc1c1;
+}
+.top-section .login:hover {
+    border-bottom: 6px solid #574a4a;
+}
+.top-section .cart-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.top-section .form-login {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* position: absolute;
+    top: 27%;
+    left: 9%; */
+    width: 100%;
+}
+.top-section .form--input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #686b6e;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 56px;
+    padding: 17px 78px 19px 19px;
+}
+.top-section .form-icon {
+    margin-right: 20px;
+}
+.top-section .margin--bottom{
+    margin-bottom: 50px;
+}
+.top-section .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-section label {
+    color: #212529;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-left: 8px;
+}
+.top-section .set-password {
+    color: #212529;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.top-section .button-form {
+    max-width: 60px;
+    height: 60px;
+    min-width: 60px;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #032456;
+    color: #FFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    /* box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12), 0px 1px 2px 0px rgba(0,0,0,0.24); */
+    position: absolute;
+    top: -12px;
+    margin: 0 auto;
+}
+.top-section .button-form:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+.top-section .last-form-button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+
+/* ------------------register-section------------------- */
+.register-section .form-register {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* position: absolute;
+    top: 27%;
+    left: 9%; */
+    width: 100%;
+}
+.register-section .form--input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ced4da;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    height: 56px;
+    padding: 17px 78px 11px 18px;
+}
+.register-section .margin--bottom{
+    margin-bottom: 50px;
+}
+.register-section .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.register-section label {
+    color: #212529;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-left: 8px;
+}
+.register-section .set-password {
+    color: #212529;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.register-section .button-form {
+    max-width: 60px;
+    height: 60px;
+    min-width: 60px;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #032456;
+    color: #FFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    /* box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12), 0px 1px 2px 0px rgba(0,0,0,0.24); */
+    position: absolute;
+    bottom: -45px;
+    margin: 0 auto;
+}
+.register-section .button-form:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+.register-section .last-form-button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+.register-section .form-icon {
+    margin-right: 24px;
+}
+.register-section .cart-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.register-section .login {
+    color: #000;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    max-width: 50%;
+    flex: 50%;
+    border-bottom: 1px solid #cfc1c1;
+}
+.register-section  input::placeholder {
+    color: #495057;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
