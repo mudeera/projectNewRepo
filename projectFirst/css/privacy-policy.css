@@ -1,0 +1,60 @@
+
+
+.privacy--page {
+    margin-bottom: 130px;
+    padding-top: 20px;
+}
+.privacy--page .heading-with-wrap {
+    margin-bottom: 50px;
+}
+.privacy--page .heading {
+    color: #000;
+    font-family: 'Karrik';
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.privacy--page .para11 {
+    color: #212529;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    margin-bottom: 18px;
+}
+.privacy--page .items {
+    color: #2778f1;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    margin-bottom: 4px;
+    text-decoration: underline;
+}
+.privacy--page .list-item {
+    list-style: unset;
+}
+.privacy--page .link {
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

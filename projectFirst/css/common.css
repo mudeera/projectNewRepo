@@ -73,6 +73,11 @@ input {
     border: none;
     background: none;
 }
+button {
+    outline: none;
+    border: none;
+    background: none;
+}
 select {
     outline: none;
     border: none;

@@ -1,0 +1,208 @@
+
+
+.main-banner {
+    background: linear-gradient(16deg, #0d6efd, #072f69);
+    padding: 20px 0;
+}
+.main-banner .name {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.main-banner .text1 {
+    color: #dc3545;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.main-banner .banner-second-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    padding: 20px 0;
+}
+.main-banner .banner-with-border--text {
+    border-bottom: 2px solid white;
+    padding: 20px 0;
+}
+.main-banner .right-copy {
+    border: 1px solid #000;
+    background: #FFF;
+    display: flex;
+    padding: 3px 24px;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.main-banner .number {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.main-banner .copy-text {
+    color: #9cb8e3;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.main-banner .link {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+}
+.main-banner .bb--text {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+}
+.main-banner .b-price {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+}
+.main-banner .banner-last-contents {
+    display: flex;
+    justify-content: space-around;
+}
+.main-banner .margin--bottom {
+    margin-bottom: 24px;
+}
+.text-with-num-wrap {
+    text-align: right;
+    margin-right: 80px;
+}
+.top-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------.user--cart_available-------------------- */
+.user--cart_available {
+    padding: 30px 10px;
+}
+.user--cart_available .add-to-cart {
+    margin-bottom: 24px;
+}
+.user--cart_available .cart-text {
+    position: relative;
+    margin-bottom: 8px;
+}
+.user--cart_available .last-text {
+    margin-bottom: 8px;
+}
+.user--cart_available .cart-available {
+    color: #212529;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+}
+.user--cart_available .cart-available::before {
+    content: "";
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    border-left: 5px solid #032e6d;
+    border-radius: 2px;
+}
+.user--cart_available .cart-price {
+    color: #212529;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.user--cart_available .reason {
+    color: #000;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+
+/* .cart-text {
+    position: relative;
+} */
+/* ------------------------------------------------- */
+
+.icon-with--txet-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.font-icon {
+    max-width: 20%;
+    flex: 20%;
+    color: #053b8b;
+}
+a.beta {
+    color: #000;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,174 @@
+
+
+
+.active-team {
+    margin-bottom: 100px;
+}
+.active-team .team-with-invest {
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.active-team .first-active-team {
+    padding: 13px 14px;
+    border-radius: 5px;
+    transition: color 1.5s;
+    background: linear-gradient(16deg, #0d6efd, #052452);
+    cursor: pointer;
+    max-width: 40%;
+    flex: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+.active-team .first-active-team:not(:last-child) {
+   margin-right: 20px;
+}
+.active-team .text12 {
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'Karrik';
+    font-weight: 300;
+    line-height: 1.2;
+    display: block;
+}
+.active-team .price {
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'Karrik';
+    font-weight: 300;
+    line-height: 1.2;
+    display: block;
+}
+.active-team .heading {
+    color: #212529;
+    font-family: 'Karrik';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    position: relative;
+}
+.active-team .heading::before {
+    content: "";
+    height: 34px;
+    position: absolute;
+    top: 0;
+    left: -18px;
+    border-left: 5px solid #032e6d;
+    border-radius: 2px;
+}
+.active-team .headings {
+    margin-left: 18px;
+}
+.active-team .para {
+    color: #212529;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    margin-bottom: 24px;
+    margin-left: 100px;
+}
+.active-team .cart-team-wrap {
+    display: flex;
+    border: 2px solid #e7dddd;
+    border-radius: 14px;
+    padding: 24px;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    position: relative;
+}
+.active-team .taem--cart {
+    max-width: 40%;
+    flex: 40%;
+}
+.active-team .commission-text {
+    color: #0d6efd;
+    font-size: 18px;
+    font-family: 'Karrik';
+    font-weight: 300;
+    line-height: 1.2;
+    display: block;
+}
+.active-team .comision-price {
+    color: #000;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.active-team .comision-view {
+    color: #000;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.active-team .comision-view:hover {
+    color: #0d6efd;
+}
+.active-team .num {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.active-team .circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5e53e9;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: -25px;
+}
+.active-team .team-para {
+    border-bottom: 1px solid #b3a6a6;
+    margin-left: 22px;
+}
+.active-team .pp {
+    color: #212529;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    margin-bottom: 4px;
+}
+.active-team .commission-text-active {
+    color: #0f1f2e;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

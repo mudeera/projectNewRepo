@@ -1,0 +1,37 @@
+.about--page {
+    margin-bottom: 120px;
+    padding-top: 20px;
+}
+.about--page .heading-with-wrap {
+    margin-bottom: 50px;
+}
+.about--page .para11 {
+    color: #212529;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+}
+.about--page .heading {
+    color: #000;
+    font-family: 'Karrik';
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.about--page .paragrah {
+    margin-bottom: 40px;
+}
+.about--page .bold-text {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+

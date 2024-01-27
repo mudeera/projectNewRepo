@@ -4,7 +4,10 @@
 .footer {
     background: linear-gradient(16deg, #0d6efd, #072e67);
     padding: 12px 0;
-    position: relative;
+    /* position: relative; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .footer .footer-icons-wrapper {
     display: flex;
@@ -21,7 +24,7 @@
     color: white;
 }
 .footer .home-icon {
-    width: 60px;
+    max-width: 60px;
     height: 60px;
     border: 7px solid #ffffff;
     border-radius: 50%;
@@ -48,6 +51,21 @@
     max-width: 25%;
     flex: 25%;
     text-align: center;
+}
+.footer .home-icon:hover {
+    border: 7px solid yellow;
+    color: yellow;
+}
+.footer .footer-center-icon:hover {
+   color: yellow;
+}
+.footer .border {
+    border-top: 3px solid yellow;
+    color: yellow;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    left: 37%;
 }
 @media screen and (max-width:767px) {
     .footer .responsive {

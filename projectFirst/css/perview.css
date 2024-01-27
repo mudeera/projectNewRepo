@@ -1,0 +1,159 @@
+.onepay-section {
+    margin-bottom: 100px;
+    padding-top: 24px;
+}
+.onepay-section .onepay-header-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.onepay-section .logo-with-text-wrap {
+    display: flex;
+    align-items: center;
+}
+.onepay-section .logo--img {
+    max-width: 35px;
+    margin-right: 8px;
+}
+.onepay-section select#cars {
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.onepay-section .selection-wrap {
+    border: 1px solid #000;
+    background: #FFF;
+    border-radius: 40px;
+    padding: 13px 40px;
+    margin-bottom: 30px;
+}
+.onepay-section option {
+    color: #000;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.onepay-section .last-click-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 24px;
+    border-radius: 24px;
+    transition: color 1.5s;
+    background: #a79f9f;
+}
+.onepay-section .draw-btn {
+    color: #fff;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize;
+    background: none;
+    border: none;
+}
+.onepay-section .account-text11 {
+    color: #0C0C0C;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    display: block;
+}
+.onepay-section .Easypaisa-account-wrap {
+    border: 2px solid #000;
+    background: #FFF;
+    border-radius: 40px;
+    padding: 13px 40px;
+    margin-bottom: 30px;
+}
+.onepay-section .acount-num2 {
+    border: 1px solid #000;
+    background: #FFF;
+    border-radius: 12px;
+    padding: 8px 24px;
+    margin-bottom: 30px;
+}
+.onepay-section .payment--11 {
+    color: #0C0C0C;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    display: block;
+}
+.onepay-section .para-first {
+    color: #000;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+.onepay-section .bg-banner {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto 40px;
+}
+.onepay-section .order-PKR-rste {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+}
+.onepay-section .paid-order {
+    color: #0C0C0C;
+    font-family: 'Karrik';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    display: block;
+}
+.onepay-section .PKR-text {
+    color: #000;
+    font-family: 'Karrik';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-align: center;
+    /* max-width: fit-content; */
+    /* margin: 0 auto; */
+}
+.onepay-section .PKR {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .onepay-section .paid-order {
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+    .onepay-section .PKR-text {
+        font-size: 17px; 
+    }
+    .onepay-section .order-PKR-rste {
+        top: 8px;
+    }
+    /* .onepay-section .bg-banner {
+        margin-bottom: 24px;
+    } */
+
+
+}
+
+
+
+

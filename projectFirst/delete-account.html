@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>user-withdraw</title>
+    <title>Change-Password page</title>
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/user-account.css">
+    <link rel="stylesheet" href="./css/delete-account.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/header-top.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
@@ -17,61 +17,53 @@
             <div class="wrapper">
                 <div class="dashboard-wrap">
                     <div class="dash-logo">
-                        <a href="£" class="logo">Add Account</a>
+                        <a href="£" class="logo">Delete Account</a>
                     </div>
                     <div class="icon--list">
                         <a href="https://rprebel.com/logout" class="icon">
                             <i class="fas fa-sign-out-alt"></i>
-                            <!-- <i class="las la-sign-out-alt"></i> -->
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="forms-withdraw-container">
-        <div class="container">
+    <div class="password-section">
+        <div class="full-container">
             <div class="wrapper">
-                <div class="wtihraw-wrap">
-                    <div class="with-para">
-                        <p class="para"> Attach Your Withdrawal Account,You can chnage wthdrawal account after adding an account</p>
+                <div class="password-page-wrap">
+                    <div class="note-text">
+                        <span class="note">Note:</span>
+                        <p class="noted--p">if you request to delete your account, we will delete your account info in 14 days,you can cancel account deletion in 14 days of your request.</p>
                     </div>
-                    <div class="selection-wrap">
-                        <select name="cars" id="cars">
-                            <option value="Eaypaisa">Eaypaisa</option>
-                            <option value=" Jazzcash">Jazzcash</option>
-                          </select>
+                    <div class="current-pass">
+                        <span class="password">Full Name</span>
                     </div>
-                    <div class="account-number-wrap">
-                        <div class="account">
-                            <span class="accont">Account Number</span>
-                        </div>
-                        <div class="price--doner">
-                            <input type="text" placeholder="Enter Account Number">
-                        </div>
-                    </div>
-                    <div class="account-number-wrap">
-                        <div class="account">
-                            <span class="accont accont-title">Account Title</span>
-                        </div>
-                        <div class="price--doner">
-                            <input type="text" placeholder="Enter Account Title">
-                        </div>
-                    </div>
-                    <div class="account-number-wrap">
-                        <div class="account">
-                            <span class="accont account-password">Account Password</span>
-                        </div>
-                        <div class="price--doner">
-                            <input type="text" placeholder="Enter Account Password">
-                        </div>
-                    </div>
-                    <div class="withdraw-button">
-                        <a href="£" class="with-btn">
-                            <button class="draw btn">Attach Now</button>
-                        </a>
+                    <div class="input-type-pass">
+                        <input type="password" placeholder="Enter your name">
                     </div>
                 </div>
+                <div class="password-page-wrap">
+                    <div class="current-pass">
+                        <span class="password">Email</span>
+                    </div>
+                    <div class="input-type-pass">
+                        <input type="email" placeholder="Enter your Email">
+                    </div>
+                </div>
+                <div class="password-page-wrap">
+                    <div class="current-pass">
+                        <span class="password">Account Password</span>
+                    </div>
+                    <div class="input-type-pass">
+                        <input type="password" placeholder="Enter password to delete account">
+                    </div>
+                </div>
+            </div>
+            <div class="password-button">
+                <a href="£" class="btn-btn-wrap">
+                    <button type="submit" class="btn-btn">Delete Now</button>
+                </a>
             </div>
         </div>
     </div>

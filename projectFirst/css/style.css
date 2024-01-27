@@ -130,7 +130,7 @@
     flex: 1;
 }
 /* --------------products---------------- */
-.products {
+.products-wrapper {
     margin-bottom: 30px;
 }
 .products .logo-with-contents-wrap {

@@ -1,0 +1,174 @@
+
+
+
+.main-dashboard-header {
+    background: #053b8b;
+    padding: 8px 0;
+}
+.main-dashboard-header .logo {
+    color: #FFF;
+    font-family: 'Karrik';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.main-dashboard-header .dashboard-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-dashboard-header .icon {
+    color: white;
+}
+/* ------------------.user-available-cart-------------------- */
+.user-available-cart {
+    padding: 30px 10px;
+}
+.user-available-cart .add-to-cart {
+    margin-bottom: 24px;
+}
+.user-available-cart .cart-text {
+    /* margin-bottom: 10px; */
+    position: relative;
+}
+.user-available-cart .cart-available {
+    color: #212529;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+}
+.user-available-cart .cart-available::before {
+    content: "";
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    border-left: 5px solid #032e6d;
+    border-radius: 2px;
+}
+.user-available-cart .cart-price {
+    color: #212529;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+/* -----------------user-easypaisa-cart------------------- */
+.user-easypaisa-cart {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 100%;
+    box-shadow: 0 5px 13px -5px #333;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+.user-easypaisa-cart .text-pay {
+    color: #0d6efd;
+    font-size: 20px;
+    font-family: 'Karrik';
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    display: block;
+}
+.user-easypaisa-cart .payment-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-easypaisa-cart .selected-txt {
+    background: #d92f65;
+    text-align: center;
+    color: white;
+    border-radius: 14px;
+    max-width: 314px;
+    padding: 0px 100px;
+    min-width: 314px;
+    cursor: pointer;
+}
+.user-easypaisa-cart .backgrund--color {
+    background: #4fa963;
+}
+.user-easypaisa-cart .reject-payment {
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Karrik';
+    font-weight: 400;
+    line-height: 1.2;
+    display: block;
+}
+.user-easypaisa-cart .amount-payment {
+    display: flex;
+    align-items: center;
+}
+.user-easypaisa-cart .amount-price {
+    max-width: 50%;
+    flex: 50%;
+}
+.user-easypaisa-cart .amount--p {
+    color: #0d6efd;
+    font-size: 15px;
+    font-family: 'Karrik';
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    display: block;
+}
+.user-easypaisa-cart .charges-p {
+    color: #0d6efd;
+    font-size: 14px;
+    font-family: 'Karrik';
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    display: block;
+}
+.user-easypaisa-cart .amont-date {
+    color: #0d6efd;
+    font-size: 14px;
+    font-family: 'Karrik';
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    display: block;
+}
+.user-easypaisa-cart .reason {
+    color: #0d6efd;
+    font-size: 14px;
+    font-family: 'Karrik';
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    display: block;
+}
+.user-easypaisa-cart .user-easypaisa-cart {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 100%;
+    box-shadow: 0 5px 13px -5px #333;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

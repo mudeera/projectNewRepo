@@ -1,0 +1,146 @@
+
+
+
+/* ------------------.-available-cart-------------------- */
+.-available-cart {
+    padding: 30px 10px;
+}
+.-available-cart .add-to-cart {
+    margin-bottom: 24px;
+}
+.-available-cart .cart-text {
+    /* margin-bottom: 10px; */
+    position: relative;
+}
+.-available-cart .cart-available {
+    color: #212529;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+}
+.-available-cart .cart-available::before {
+    content: "";
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    border-left: 5px solid #032e6d;
+    border-radius: 2px;
+}
+.-available-cart .cart-price {
+    color: #212529;
+    text-align: center;
+    font-family: 'Karrik';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+/* ------------------------------------- */
+.user-transaction-cart {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 100%;
+    box-shadow: 0 5px 13px -5px #333;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+.user-transaction-cart .text-pay {
+    color: #0d6efd;
+    font-size: 18px;
+    font-family: 'Karrik';
+    font-weight: 600;
+    line-height: 1.2;
+    display: block;
+}
+.user-transaction-cart .payment-easypaisa {
+    margin-bottom: 10px;
+}
+.user-transaction-cart .amount--p {
+    color: #177c0b;
+    font-size: 15px;
+    font-family: 'Karrik';
+    font-weight: 600;
+    line-height: 1.2;
+    display: block;
+    margin-right: 8px;
+}
+.user-transaction-cart .amount-charges {
+    display: flex;
+    align-items: center;
+}
+.user-transaction-cart .charges-p {
+    color: #0d6efd;
+    font-size: 16px;
+    font-family: 'Karrik';
+    font-weight: 600;
+    line-height: 1.2;
+    display: block;
+    margin-right: 8px;
+}
+.user-transaction-cart .charges-pp {
+    color: #0d6efd;
+    font-size: 15px;
+    font-family: 'Karrik';
+    font-weight: 300;
+    line-height: 1.2;
+    display: block;
+}
+.user-transaction-cart .amount-payment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.user-transaction-cart .amount-price {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    flex: 50%;
+}
+.user-transaction-cart .dates-with-amounts {
+    display: flex;
+    align-items: center;
+}
+.user-transaction-cart .amont-date {
+    color: #0d6efd;
+    font-size: 18px;
+    font-family: 'Karrik';
+    font-weight: 600;
+    line-height: 1.2;
+    display: block;
+    margin-right: 8px;
+}
+.user-transaction-cart .amount--pp {
+    color: #0d6efd;
+    font-size: 15px;
+    font-family: 'Karrik';
+    font-weight: 300;
+    line-height: 1.2;
+    display: block;
+}
+.user-transaction-cart .amont-date--pp {
+    color: #0d6efd;
+    font-size: 15px;
+    font-family: 'Karrik';
+    font-weight: 300;
+    line-height: 1.2;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

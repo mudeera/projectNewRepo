@@ -85,6 +85,10 @@
     flex: 25%;
     padding: 0 8px;
 }
+.cart-selection .cart-prices::after {
+    background: rgb(101, 4, 96);
+    color: white;
+}
 .cart-selection .detials {
     display: block;
     text-align: center;
