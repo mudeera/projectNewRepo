@@ -106,6 +106,9 @@
     justify-content: center;
 }
 /* -------------------------- */
+.banner {
+    overflow: hidden;
+}
 .banner-two {
     border-top: 6px solid #e6e6e6;
     border-bottom: 6px solid #e6e6e6;

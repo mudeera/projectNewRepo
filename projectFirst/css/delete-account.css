@@ -102,8 +102,30 @@ p.noted--p {
     display: block;
 }
 
+@media screen and (max-width:990px) {
+    .password-section .note-text {
+        align-items: unset;
+        margin-left: 0;
+    }
+    .password-section .password {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .password-section input[type="password"] {
+        font-size: 16px;
+    }
+    .password-section input[type="email"] {
+        font-size: 16px;
+    }
+    .password-section .password-button {
+        padding: 8px 14px;
+        max-width: 360px;
+    }
 
 
+
+
+}
 
 
 
