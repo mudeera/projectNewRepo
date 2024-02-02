@@ -1,5 +1,7 @@
 
-
+.pay-head {
+    margin-bottom: 80px;
+}
 .pay-head .logo--img {
     max-width: 60px;
     margin: 0 auto 8px;
@@ -152,11 +154,17 @@
     margin-bottom: 8px;
 }
 .pay-head input[type="text"] {
-    color: #0C0C0C;
+    color: #707070;
     font-family: 'Karrik';
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
+}
+.pay-head .form-input input::placeholder {
+    color:  #707070;
+    font-family: 'Karrik';
+    font-size: 16px;
+    font-weight: 400;
 }
 .pay-head .p11 {
     color: #6c757d;
@@ -182,6 +190,7 @@
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    cursor: pointer;
 }
 .pay-head .order--payy {
     color: #6c757d;
@@ -196,6 +205,7 @@
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     padding: 17px 100px;
+    cursor: pointer;
 }
 .pay-head .btn-btn {
     border: none;
@@ -220,6 +230,25 @@
     text-align: right;
     display: block;
 }
+.pay-head .text-center {
+    margin-bottom: 8px;
+}
+.pay-head .custom-box {
+    width: 96px;
+    height: 96px;
+    border: 1px dashed #977d7d;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pay-head .box {
+    max-width: 20px;
+    min-width: 20px;
+}
+
+
 @media screen and (max-width: 767px) {
     .pay-head .step-with-text {
         padding: 11px;

@@ -78,13 +78,21 @@
     line-height: 1.5;
     display: block;
 }
+.password-section input[type="text"] {
+    color: #212529;
+    font-family: 'Karrik';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+}
 .password-section input ::placeholder {
     color: #212529;
     font-family: 'Karrik';
     font-size: 18px;
     font-weight: 400;
 }
-span.note {
+.password-section .note {
     color: #c94071;
     font-family: 'Karrik';
     font-size: 16px;
@@ -93,7 +101,7 @@ span.note {
     display: block;
     margin-right: 4px;
 }
-p.noted--p {
+.password-section .noted--p {
     color: #212529;
     font-family: 'Karrik';
     font-size: 16px;
@@ -121,8 +129,12 @@ p.noted--p {
         padding: 8px 14px;
         max-width: 360px;
     }
-
-
+    .password-section .noted--p {
+        font-size: 14px;
+    }
+    .password-section input[type="text"] {
+        font-size: 15px;
+    }
 
 
 }

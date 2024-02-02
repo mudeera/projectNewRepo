@@ -9,6 +9,13 @@ const swiper = new Swiper('.swiper-first-slider', {
     // spaceBetween: 10,
     loop: true,
     speed: 600,
+    autoplay:{
+      delay:1000
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
     scrollbar: {
       el: '.swiper-scrollbar',
     },

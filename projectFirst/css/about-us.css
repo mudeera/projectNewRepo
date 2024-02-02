@@ -29,9 +29,23 @@
 }
 
 
-
-
-
+@media screen and (max-width:990px) {
+    .about--page .heading {
+        font-size: 45px;
+    }
+    .about--page .para11 {
+        font-size: 16px;
+    }
+    .about--page .heading-with-wrap {
+        margin-bottom: 20px;
+    }
+    .about--page .paragrah {
+        margin-bottom: 18px;
+    }
+    .about--page .bold-text {
+        margin-bottom: 14px;
+    }
+}
 
 
 

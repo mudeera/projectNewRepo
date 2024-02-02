@@ -69,6 +69,7 @@
     display: block;
     margin-bottom: 24px;
     margin-left: 100px;
+    padding: 0 8px;
 }
 .active-team .cart-team-wrap {
     display: flex;
@@ -90,6 +91,7 @@
     font-weight: 300;
     line-height: 1.2;
     display: block;
+    margin-bottom: 4px;
 }
 .active-team .comision-price {
     color: #000;
@@ -150,9 +152,27 @@
     display: block;
 }
 
+@media screen and (max-width:767px) {
+    .active-team .cart-team-wrap {
+        max-width: 370px;
+        margin: 0 auto 40px;
+    }
+    .active-team .para {
+        font-size: 15px;
+    }
+    .active-team .commission-text {
+        font-size: 16px;
+    }
+    .active-team .comision-price {
+        font-size: 14px;
+    }
+    .active-team .commission-text-active {
+        font-size: 16px;
+    }
 
 
 
+}
 
 
 

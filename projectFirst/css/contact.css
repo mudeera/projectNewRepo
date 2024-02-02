@@ -68,5 +68,18 @@
     cursor: pointer;
 }
 
-
-
+@media screen and (max-width:990px) {
+    .contact-us-page .heading {
+        font-size: 22px;
+    }
+    .contact-us-page .headings {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    .contact-us-page .btn-bttn {
+        font-size: 15px;
+    }
+    .contact-us-page .btn-bttn2 {
+        font-size: 15px;
+    }
+}

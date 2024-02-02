@@ -41,9 +41,21 @@
     margin-left: 70px;
 }
 
-
-
-
+@media screen and (max-width:990px) {
+    .privacy--page .heading {
+        font-size: 45px;
+    }
+    .privacy--page .heading-with-wrap {
+        margin-bottom: 20px;
+    }
+    .privacy--page .para11 {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    .privacy--page .items {
+        font-size: 16px;
+    }
+}
 
 
 

@@ -130,13 +130,41 @@
     line-height: 1.2;
     display: block;
 }
+.product-account-prices {
+    margin-bottom: 100px;
+}
 
 
 
+@media screen and (max-width:990px) {
+    .user-transaction-cart {
+        max-width: 385px;
+        padding: 8px;
+    }
+    .user-transaction-cart .text-pay {
+        font-size: 15px;
+    }
+    .user-transaction-cart .charges-p {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .user-transaction-cart .amont-date {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .user-transaction-cart .amont-date--pp {
+        font-size: 14px;
+    }
+    .-available-cart {
+        padding: 10px 10px;
+    }
+    .-available-cart .add-to-cart {
+        margin-bottom: 8px;
+    }
 
 
 
-
+}
 
 
 

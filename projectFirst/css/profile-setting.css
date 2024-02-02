@@ -4,6 +4,9 @@
     background: linear-gradient(16deg, #0d6efd, #072f69);
     padding: 20px 0;
 }
+.custom-profile-text {
+    margin-bottom: 100px;
+}
 .main-banner .name {
     color: #FFF;
     font-family: 'Karrik';
