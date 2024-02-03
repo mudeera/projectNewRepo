@@ -2,7 +2,7 @@
 
 
 .footer {
-    background: linear-gradient(16deg, #6c757d, rgba(0,0,0,.5));
+    background: linear-gradient(16deg, #36160a, #6f4208);
     /* background: linear-gradient(16deg, #eee, #04AA6D); */
     /* background: linear-gradient(16deg, #0d6efd, #072e67); */
     padding: 12px 0;
@@ -18,7 +18,7 @@
 }
 .footer .footer-last-icon {
     font-size: 24px;
-    color: #076964;
+    color: #6c757d;
     font-weight: 900;
     font-family: 'Karrik';
 }
@@ -55,11 +55,11 @@
     text-align: center;
 } */
 .footer .home-icon:hover {
-    border: 7px solid yellow;
-    color: yellow;
+    border: 7px solid #451909;
+    color: #451909;
 }
 .footer .footer-center-icon:hover {
-   color: yellow;
+   color: #451909;
 }
 .footer .border {
     border-top: 3px solid yellow;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LoginPage</title>
+    <title>Login and Registration</title>
     <link rel="icon" type="image/x-icon" href="/images/home/app.png">
     <link rel="stylesheet" href="./css/login-page.css">
     <link rel="stylesheet" href="./css/common.css">
@@ -12,9 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="top-section">
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"   aria-labelledby="pills-home-tab"> 
+      <div class="top-section">
         <div class="container">
             <div class="wrapper">
                 <div class="wel-txt">
@@ -27,10 +32,14 @@
                 </div>
                 <div class="text-wrap">
                     <div class="form-login">
-                        <div class="cart-container">
-                            <div class="login" onclick="gotolink(this)">Login</div>
-                            <div class="login" onclick="gotolink(this)">Register</div>
-                        </div>
+                      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Login</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Register</button>
+                        </li>
+                      </ul>
                         <form action="£" class="forms">
                             <div class="forms-with-icons-wrap">
                                 <div class="form--input">
@@ -63,114 +72,88 @@
                                 <div class="last-form-button">
                                     <button onclick="showpopup()" class="button-form" type="submit" id="loginpopup">
                                         <i class="fa-solid fa-arrow-right"></i>
-                                        <!-- <div class="pop-up" id="popup">
-                                            <div class="container">
-                                                <div class="wrapper">
-                                                    <div class="wrap">
-                                                        <h2 class="pop-up-heading">Read it Carefully</h2>
-                                                        <span class="text">Check Latest Update on Withdrawal</span>
-                                                        <div class="unorder-list-items">
-                                                            <ol class="order-list">
-                                                                <li class="pop-up-list">Withdraw Timing 24 Hours Open.</li>
-                                                                <li class="pop-up-list">Minimum Withdrawal is 200.</li>
-                                                                <li class="pop-up-list">Withdrawal Charges 6% on Each Withdraw.</li>
-                                                                <li class="pop-up-list">Deposite timing 24 Hours.</li>
-                                                                <li class="pop-up-list">Invest on Any Plan And Get Profit Daily</li>
-                                                                <li class="pop-up-list">PR REBEL is Lounched on 06-01-2024</li>
-                                                            </ol>
-                                                        </div>
-                                                        <div class="button button-border">
-                                                            <a href="#" class="btn">
-                                                                <button class="btn-bttn2">Join Our WhatsApp Group</button>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> -->
                                     </button>
                                 </div>
                             </div>
                         </form>
                     </div>
-                
                 </div>
             </div>
         </div>
+      </div>
     </div>
-    
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="register-section">
+      <div class="container">
+          <div class="wrapper">
+              <div class="register-wrapper">
+                     <div class="form-register">
+                      <form action="£" class="forms">
+                          <div class="forms-with-icons-wrap">
+                              <div class="form--input">
+                                  <div class="form-icon">
+                                      <i class="fa fa-phone" aria-hidden="true"></i>
+                                  </div>
+                                  <div class="input--type">
+                                      <input type="email" placeholder="Enter Your Mobile No.">
+                                  </div>
+                              </div>
+                              <div class="form--input">
+                                  <div class="form-icon">
+                                      <i class="fa fa-user" aria-hidden="true"></i>
+                                  </div>
+                                  <div class="input--type">
+                                      <input type="password" placeholder="Enter Your Name">
+                                  </div>
+                              </div>
+                              <div class="form--input">
+                                  <div class="form-icon">
+                                      <i class="fa-solid fa-envelope"></i>
+                                  </div>
+                                  <div class="input--type">
+                                      <input type="email" placeholder="Enter Your Email">
+                                  </div>
+                              </div>
+                              <div class="form--input">
+                                  <div class="form-icon">
+                                      <i class="fa-solid fa-lock"></i>
+                                  </div>
+                                  <div class="input--type">
+                                      <input type="password" placeholder="Enter Your New Password">
+                                  </div>
+                              </div>
+                              <div class="form--input">
+                                  <div class="form-icon">
+                                      <i class="fa-solid fa-lock"></i>
+                                  </div>
+                                  <div class="input--type">
+                                      <input type="email" placeholder="Retype Password">
+                                  </div>
+                              </div>
+                              <div class="form--input">
+                                  <div class="form-icon">
+                                      <i class="fa-solid fa-user-tag"></i>
+                                  </div>
+                                  <div class="input--type">
+                                      <input type="password" placeholder="Referral Code">
+                                  </div>
+                              </div>
+                              <div class="last-form-button">
+                                  <button class="button-form" type="submit">
+                                      <i class="fa-solid fa-arrow-right"></i>
+                                  </button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div> 
+    </div>
 
-     <div class="register-section">
-        <div class="container">
-            <div class="wrapper">
-                <div class="register-wrapper">
-                       <div class="form-register">
-                        <div class="cart-container">
-                            <div class="login">Login</div>
-                            <div class="login">Register</div>
-                        </div>
-                        <form action="£" class="forms">
-                            <div class="forms-with-icons-wrap">
-                                <div class="form--input">
-                                    <div class="form-icon">
-                                        <i class="fa fa-phone" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="input--type">
-                                        <input type="email" placeholder="Enter Your Mobile No.">
-                                    </div>
-                                </div>
-                                <div class="form--input">
-                                    <div class="form-icon">
-                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="input--type">
-                                        <input type="password" placeholder="Enter Your Name">
-                                    </div>
-                                </div>
-                                <div class="form--input">
-                                    <div class="form-icon">
-                                        <i class="fa-solid fa-envelope"></i>
-                                    </div>
-                                    <div class="input--type">
-                                        <input type="email" placeholder="Enter Your Email">
-                                    </div>
-                                </div>
-                                <div class="form--input">
-                                    <div class="form-icon">
-                                        <i class="fa-solid fa-lock"></i>
-                                    </div>
-                                    <div class="input--type">
-                                        <input type="password" placeholder="Enter Your New Password">
-                                    </div>
-                                </div>
-                                <div class="form--input">
-                                    <div class="form-icon">
-                                        <i class="fa-solid fa-lock"></i>
-                                    </div>
-                                    <div class="input--type">
-                                        <input type="email" placeholder="Retype Password">
-                                    </div>
-                                </div>
-                                <div class="form--input">
-                                    <div class="form-icon">
-                                        <i class="fa-solid fa-user-tag"></i>
-                                    </div>
-                                    <div class="input--type">
-                                        <input type="password" placeholder="Referral Code">
-                                    </div>
-                                </div>
-                                <div class="last-form-button">
-                                    <button class="button-form" type="submit">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
+
+
     <script src="./js/script.js"></script>
     <script src="./js/login.js"></script>
 </body>

@@ -13,7 +13,7 @@
     padding: 13px 14px;
     border-radius: 5px;
     transition: color 1.5s;
-    background: linear-gradient(16deg, #0d6efd, #052452);
+    background: linear-gradient(16deg, #36160a, #6f4208);
     cursor: pointer;
     max-width: 40%;
     flex: 40%;
@@ -54,7 +54,7 @@
     position: absolute;
     top: 0;
     left: -18px;
-    border-left: 5px solid #032e6d;
+    border-left: 5px solid #451909;
     border-radius: 2px;
 }
 .active-team .headings {
@@ -85,7 +85,7 @@
     flex: 40%;
 }
 .active-team .commission-text {
-    color: #0d6efd;
+    color: #451909;
     font-size: 18px;
     font-family: 'Karrik';
     font-weight: 300;
@@ -108,7 +108,7 @@
     line-height: 1.2;
 }
 .active-team .comision-view:hover {
-    color: #0d6efd;
+    color: #451909;
 }
 .active-team .num {
     color: #FFF;
@@ -124,7 +124,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #5e53e9;
+    background: #451909;
     cursor: pointer;
     position: absolute;
     left: 50%;
@@ -144,7 +144,7 @@
     margin-bottom: 4px;
 }
 .active-team .commission-text-active {
-    color: #0f1f2e;
+    color: #451909;
     font-family: 'Karrik';
     font-size: 18px;
     font-weight: 400;

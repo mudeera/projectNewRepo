@@ -34,9 +34,7 @@
     line-height: 1.1;
 }
 .hero-banner {
-    background: linear-gradient(16deg, #6c757d, rgba(0,0,0,.5));
-    /* background: linear-gradient(16deg, #04AA6D, rgba(0,0,0,.5)); */
-    /* background: linear-gradient(16deg, #0d6efd, #072f69); */
+    background: linear-gradient(16deg, #36160a, #6f4208);
     padding: 20px 0;
 }
 .form-gmail input[type="gmail"] {
@@ -166,7 +164,7 @@
     text-transform: capitalize;
 }
 .products .price--p {
-    background: linear-gradient(16deg, #0d6efd, #05214a);
+    background: linear-gradient(16deg, #36160a, #6f4208);
     text-align: center;
     color: white;
     border-radius: 14px;
@@ -183,7 +181,7 @@
     line-height: 1.1;
 }
 .products .new-price {
-    color: #0d6efd;
+    color: #451909;
     font-size: 16px;
     font-family: 'Karrik';
     font-weight: 700;
@@ -192,7 +190,7 @@
     display: block;
 }
 .products .custom-case {
-    color: #0d6efd;
+    color: #451909;
     font-size: 14px;
     font-family: 'Karrik';
     font-weight: 400;
@@ -211,7 +209,6 @@
     margin-bottom: 8px;
 }
 .products .product-button {
-    background: #0d6efd;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -219,8 +216,7 @@
     padding: 8px 20px;
     border-radius: 5px;
     transition: color 1.5s;
-    background: linear-gradient(16deg, #6c757d, rgba(0,0,0,.5));
-    /* background: linear-gradient(16deg, #0d6efd, #052452); */
+    background: linear-gradient(16deg, #36160a, #6f4208);
     margin-bottom: 10px;
 }
 .products .btn-btn {

@@ -26,7 +26,7 @@
     position: absolute;
     top: 0;
     left: -12px;
-    border-left: 5px solid #032e6d;
+    border-left: 5px solid #451909;
     border-radius: 2px;
 }
 .-available-cart .cart-price {
@@ -50,7 +50,7 @@
     margin-bottom: 16px;
 }
 .user-transaction-cart .text-pay {
-    color: #0d6efd;
+    color: #451909;
     font-size: 18px;
     font-family: 'Karrik';
     font-weight: 600;
@@ -74,7 +74,7 @@
     align-items: center;
 }
 .user-transaction-cart .charges-p {
-    color: #0d6efd;
+    color: #451909;
     font-size: 16px;
     font-family: 'Karrik';
     font-weight: 600;
@@ -83,7 +83,7 @@
     margin-right: 8px;
 }
 .user-transaction-cart .charges-pp {
-    color: #0d6efd;
+    color: #451909;
     font-size: 15px;
     font-family: 'Karrik';
     font-weight: 300;
@@ -106,7 +106,7 @@
     align-items: center;
 }
 .user-transaction-cart .amont-date {
-    color: #0d6efd;
+    color: #451909;
     font-size: 18px;
     font-family: 'Karrik';
     font-weight: 600;
@@ -115,7 +115,7 @@
     margin-right: 8px;
 }
 .user-transaction-cart .amount--pp {
-    color: #0d6efd;
+    color: #451909;
     font-size: 15px;
     font-family: 'Karrik';
     font-weight: 300;
@@ -123,7 +123,7 @@
     display: block;
 }
 .user-transaction-cart .amont-date--pp {
-    color: #0d6efd;
+    color: #451909;
     font-size: 15px;
     font-family: 'Karrik';
     font-weight: 300;

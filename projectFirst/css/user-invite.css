@@ -5,7 +5,7 @@
     margin-bottom: 110px;
 }
 .banner .banner-heading {
-    background: #3c78d1;
+    background: #451909;
     padding: 23px 0 40px 0;
     text-align: center;
 }
@@ -42,7 +42,7 @@
     position: absolute;
     top: 0;
     left: -12px;
-    border-left: 5px solid #032e6d;
+    border-left: 5px solid #451909;
     border-radius: 2px;
 }
 .banner .code-with-num-wrap {
@@ -105,7 +105,7 @@
     padding: 8px 20px;
     border-radius: 24px;
     transition: color 1.5s;
-    background: linear-gradient(16deg, #0d6efd, #052452);
+    background: linear-gradient(16deg, #36160a, #6f4208);
     max-width: 1100px;
     margin: 0 auto;
 }

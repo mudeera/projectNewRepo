@@ -72,7 +72,7 @@
     margin-bottom: 16px;
 }
 .user-easypaisa-cart .text-pay {
-    color: #0d6efd;
+    color: #451909;
     font-size: 20px;
     font-family: 'Karrik';
     font-weight: 400;
@@ -86,7 +86,7 @@
     margin-bottom: 12px;
 }
 .user-easypaisa-cart .selected-txt {
-    background: #d92f65;
+    background: linear-gradient(16deg, #36160a, #6f4208);
     text-align: center;
     color: white;
     border-radius: 14px;
@@ -96,7 +96,7 @@
     cursor: pointer;
 }
 .user-easypaisa-cart .backgrund--color {
-    background: #4fa963;
+    background: linear-gradient(16deg, #36160a, #6f4208);
 }
 .user-easypaisa-cart .reject-payment {
     color: #FFF;
@@ -115,7 +115,7 @@
     flex: 50%;
 }
 .user-easypaisa-cart .amount--p {
-    color: #0d6efd;
+    color: #451909;
     font-size: 15px;
     font-family: 'Karrik';
     font-weight: 400;
@@ -124,7 +124,7 @@
     display: block;
 }
 .user-easypaisa-cart .charges-p {
-    color: #0d6efd;
+    color: #451909;
     font-size: 14px;
     font-family: 'Karrik';
     font-weight: 400;
@@ -133,7 +133,7 @@
     display: block;
 }
 .user-easypaisa-cart .amont-date {
-    color: #0d6efd;
+    color: #451909;
     font-size: 14px;
     font-family: 'Karrik';
     font-weight: 400;
@@ -142,7 +142,7 @@
     display: block;
 }
 .user-easypaisa-cart .reason {
-    color: #0d6efd;
+    color: #451909;
     font-size: 14px;
     font-family: 'Karrik';
     font-weight: 400;
