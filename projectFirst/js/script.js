@@ -1,14 +1,9 @@
-// function gotolink(link) {
-//     console.log(link.value);
-//     window.open(link.value);
-// }
 
 const swiper = new Swiper('.swiper-first-slider', {
-    // Optional parameters
     slidesPerView: 1,
     // spaceBetween: 10,
     loop: true,
-    speed: 600,
+    // speed: 12000,
     autoplay:{
       delay:1000
     },

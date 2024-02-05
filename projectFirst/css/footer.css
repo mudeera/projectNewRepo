@@ -2,9 +2,7 @@
 
 
 .footer {
-    background: linear-gradient(16deg, #36160a, #6f4208);
-    /* background: linear-gradient(16deg, #eee, #04AA6D); */
-    /* background: linear-gradient(16deg, #0d6efd, #072e67); */
+    background: linear-gradient(16deg, #04aa6d, #4caf50);
     padding: 12px 0;
     /* position: relative; */
     position: fixed;
@@ -18,7 +16,7 @@
 }
 .footer .footer-last-icon {
     font-size: 24px;
-    color: #6c757d;
+    color: #FFC107;
     font-weight: 900;
     font-family: 'Karrik';
 }
@@ -42,7 +40,7 @@
 }
 .footer .footer-center-icon {
     font-size: 24px;
-    color: #f8f3f3;
+    color: #FFC107;
     font-weight: 900;
     font-family: 'Karrik';
 }
@@ -55,11 +53,11 @@
     text-align: center;
 } */
 .footer .home-icon:hover {
-    border: 7px solid #451909;
-    color: #451909;
+    border: 7px solid #4CAF50;
+    color: #4CAF50;
 }
 .footer .footer-center-icon:hover {
-   color: #451909;
+   color: #4CAF50;
 }
 .footer .border {
     border-top: 3px solid yellow;

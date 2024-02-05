@@ -25,7 +25,7 @@
     position: absolute;
     top: 0;
     left: -12px;
-    border-left: 5px solid #451909;
+    border-left: 5px solid #04aa6d;
     border-radius: 2px;
 }
 .user-available-cart .cart-price {
@@ -38,7 +38,7 @@
 }
 /* -----------------user-Withdrawal-cart------------------- */
 .user-Withdrawal-cart .text-pay {
-    color: #451909;
+    color: #04aa6d;
     font-size: 20px;
     font-family: 'Karrik';
     font-weight: 600;
@@ -56,7 +56,7 @@
     background: #1f5e2a;
 }
 .user-Withdrawal-cart .selected-txt {
-    background: linear-gradient(16deg, #36160a, #6f4208);
+    background: linear-gradient(16deg, #04aa6d, #4CAF50);
     text-align: center;
     color: white;
     border-radius: 14px;
@@ -89,7 +89,7 @@
     display: flex;
 }
 .user-Withdrawal-cart .amount--p {
-    color: #451909;
+    color: #4fa963;
     font-size: 15px;
     font-family: 'Karrik';
     font-weight: 600;
@@ -98,7 +98,7 @@
     margin-right: 8px;
 }
 .user-Withdrawal-cart .amount--pp {
-    color: #451909;
+    color: #4fa963;
     font-size: 15px;
     font-family: 'Karrik';
     font-weight: 300;
@@ -106,7 +106,7 @@
     display: block;
 }
 .user-Withdrawal-cart .charges-p {
-    color: #451909;
+    color: #4fa963;
     font-size: 14px;
     font-family: 'Karrik';
     font-weight: 400;
@@ -120,7 +120,7 @@
     margin-bottom: 8px;
 }
 .user-Withdrawal-cart .amont-date {
-    color: #451909;
+    color: #4fa963;
     font-size: 14px;
     font-family: 'Karrik';
     font-weight: 700;
@@ -137,7 +137,7 @@
     display: block;
 }
 .user-Withdrawal-cart .reason {
-    color: #451909;
+    color: #4fa963;
     font-size: 14px;
     font-family: 'Karrik';
     font-weight: 400;

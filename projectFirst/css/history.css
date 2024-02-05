@@ -2,7 +2,7 @@
 
 
 .main-dashboard-header {
-    background: #053b8b;
+    background: #04aa6d;
     padding: 8px 0;
 }
 .main-dashboard-header .logo {
@@ -45,7 +45,7 @@
     position: absolute;
     top: 0;
     left: -12px;
-    border-left: 5px solid #032e6d;
+    border-left: 5px solid #04aa6d;
     border-radius: 2px;
 }
 .user-available-cart .cart-price {
@@ -72,7 +72,7 @@
     margin-bottom: 16px;
 }
 .user-easypaisa-cart .text-pay {
-    color: #451909;
+    color: #04aa6d;
     font-size: 20px;
     font-family: 'Karrik';
     font-weight: 400;
@@ -86,7 +86,7 @@
     margin-bottom: 12px;
 }
 .user-easypaisa-cart .selected-txt {
-    background: linear-gradient(16deg, #36160a, #6f4208);
+    background: linear-gradient(16deg, #04aa6d, #4CAF50);
     text-align: center;
     color: white;
     border-radius: 14px;
@@ -96,7 +96,7 @@
     cursor: pointer;
 }
 .user-easypaisa-cart .backgrund--color {
-    background: linear-gradient(16deg, #36160a, #6f4208);
+    background: linear-gradient(16deg, #04aa6d, #4CAF50);
 }
 .user-easypaisa-cart .reject-payment {
     color: #FFF;
@@ -124,7 +124,7 @@
     display: block;
 }
 .user-easypaisa-cart .charges-p {
-    color: #451909;
+    color: #04aa6d;
     font-size: 14px;
     font-family: 'Karrik';
     font-weight: 400;
