@@ -51,5 +51,3 @@ const swiper = new Swiper('.swiper-first-slider', {
 
 
 
-
-

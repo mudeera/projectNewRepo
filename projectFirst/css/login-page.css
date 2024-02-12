@@ -131,7 +131,6 @@ body {
     color: #FFF;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    /* box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12), 0px 1px 2px 0px rgba(0,0,0,0.24); */
     position: absolute;
     top: -12px;
     margin: 0 auto;
@@ -139,7 +138,7 @@ body {
 .top-section .button-form:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
-.top-section .last-form-button {
+.top-section .form-last-button {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -148,6 +147,12 @@ body {
 
 
 /* ------------------register-section------------------- */
+.register-section .form-last-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ }
 .register-section .form-register {
     max-width: 1100px;
     margin: 0 auto;
@@ -208,15 +213,14 @@ body {
     color: #FFF;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    /* box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12), 0px 1px 2px 0px rgba(0,0,0,0.24); */
     position: absolute;
-    bottom: -45px;
+    bottom: -105px;
     margin: 0 auto;
 }
 .register-section .button-form:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
-.register-section .last-form-button {
+.register-section .form-last-button {
    display: flex;
    align-items: center;
    justify-content: center;

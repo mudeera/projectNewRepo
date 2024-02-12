@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
-<body>
-    <div class="pop-up">
+<body class="refresh"  onclick="openpopup()">
+    <div class="pop-up" id="popup">
         <div class="container">
             <div class="wrapper">
                 <div class="wrap">
+                    <div class="cross-button">
+                        <a href="£" class="cross-btn" onclick="closepopup()">X</a>
+                    </div>
                     <h2 class="pop-up-heading">Read it Carefully</h2>
                     <span class="text">Check Latest Update on Withdrawal</span>
                     <div class="unorder-list-items">
@@ -28,7 +31,7 @@
                         </ol>
                     </div>
                     <div class="button button-border">
-                        <a href="#" class="btn">
+                        <a href="£" class="btn">
                             <button class="btn-bttn2">Join Our WhatsApp Group</button>
                         </a>
                     </div>
@@ -36,5 +39,6 @@
             </div>
         </div>
     </div>
+    <script src="./js/login.js"></script>
 </body>
 </html>
